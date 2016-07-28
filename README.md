@@ -17,6 +17,7 @@ Insdie the Final Program Package, there are three .m files. Please follow the in
 
 
 中文说明：
+
 该文件是CS534 机器学习课程的期末设计。
 
 在这个项目中，处理的数据对象是软件的更新说明文本，我们小组使用了有监督和非监督学习，将数据元分类为三类：1.Bug修复 2. 增加新功能 3. 性能提升。
