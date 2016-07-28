@@ -16,5 +16,15 @@ Insdie the Final Program Package, there are three .m files. Please follow the in
 中文说明：
 该文件是CS534 机器学习课程的期末设计。
 
-在这个项目中，数据源是软件的更新说明文本，我们小组打算使用有监督和非监督学习，将数据元分类为三类：1.Bug修复 2. 增加新功能 3. 性能提升。
+在这个项目中，处理的数据对象是软件的更新说明文本，我们小组使用了有监督和非监督学习，将数据元分类为三类：1.Bug修复 2. 增加新功能 3. 性能提升。
 我们在最后将对比监督学习和非监督学习在分类准确性上的差异。
+
+其中，我使用TF-IDF模型将无法对比的文字转化为可以互相对比的数据。监督学习部分，使用了KNN算法；非监督学习部分，试用了K-means算法。
+
+语言使用：MATLAB
+
+运行指南：
+1. clone Final Program 包到目标位置
+2. 打开Matlab，运行FP_Part_1_Raw_data_modify.m
+3. 运行FP_Part_2_Unsupervised_Kmeans.m
+4. 运行FP_Part_3_Supervised_KNN.m
