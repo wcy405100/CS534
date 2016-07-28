@@ -8,8 +8,11 @@ Inside the project, our team want to classify the software release note into thr
 To convert the words information into some comparable value, we use TF-IDF representation model. The supervised method being used is KNN and the unsupervised method is K-means. 
 
 Insdie the Final Program Package, there are three .m files. Please follow the instruction to run this program:
+
 1. Run FP_Part_1_Raw_data_modify.m
+
 2. Run FP_Part_2_Unsupervised_Kmeans.m
+
 3. Run FP_Part_3_Supervised_KNN.m
 
 
@@ -24,7 +27,11 @@ Insdie the Final Program Package, there are three .m files. Please follow the in
 语言使用：MATLAB
 
 运行指南：
+
 1. clone Final Program 包到目标位置
+
 2. 打开Matlab，运行FP_Part_1_Raw_data_modify.m
+
 3. 运行FP_Part_2_Unsupervised_Kmeans.m
+
 4. 运行FP_Part_3_Supervised_KNN.m
